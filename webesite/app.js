@@ -11,11 +11,11 @@ let apiKey = 'appid=aa773ac4a917945b45bab5a9c9f00b3a';
 
 // Event listener to add function to existing HTML DOM element
 const gen = document.getElementById('generate')
-gen.addEventListener('click',performAction);
+gen.addEventListener('click',Action);
 
 
 /* Function called by event listener */
-function performAction(e){
+function Action(e){
     const newZip = document.getElementById('zip').value;
     const feeling = document.getElementById('feeling').value;
     getWeather(baseURL,newZip,apiKey)
