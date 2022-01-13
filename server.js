@@ -5,7 +5,7 @@ projectData = [];
 const express = require('express');
 // Start up an instance of app
 const app = express();
-const port = 5500;
+const port = 5501;
 /* Middleware*/
 //Here we are configuring express to use body-parser as middle-ware.
 
